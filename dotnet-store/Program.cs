@@ -1,7 +1,15 @@
+using dotnet_store.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DataContext>(options => {
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlite(connectionString);
+});
 
 var app = builder.Build();
 
@@ -24,6 +32,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();
