@@ -40,6 +40,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9TbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_Topbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9Ub3BiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/Partials/_UrunCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9VcnVuQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,7 +83,3 @@ build_metadata.AdditionalFiles.CssScope =
 [c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/cozgu/Documents/Asp-Veri-Tabanı/dotnet-store/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-t8nu26ry5m

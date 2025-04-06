@@ -137,10 +137,7 @@ C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-s
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.RazorAssemblyInfo.cache
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.RazorAssemblyInfo.cs
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.sourcelink.json
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\scopedcss\bundle\dotnet-store.styles.css
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\scopedcss\projectbundle\dotnet-store.bundle.scp.css
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-b9sayid5wm.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\2v6xp16du8-61n19gt1b8.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\prp9f1ih76-xtxxf3hu2r.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\d6xi74t1eo-bqjiyaj88i.gz
@@ -202,8 +199,6 @@ C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compress
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\a1tkkba8gl-muycvpuwrr.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\hxm858xkej-87fc7y1x7t.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\b6lx6vvi43-mlv21k5csn.gz
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\ka8km94e16-tih98aqvaf.gz
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\hyla0vsphq-tih98aqvaf.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -219,3 +214,8 @@ C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\refint\d
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.pdb
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.genruntimeconfig.cache
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\ref\dotnet-store.dll
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\1g6igrmttz-tpznpjr8xw.gz
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\ybqhv9wpbv-vwipl5cvsg.gz
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\48lvmql9bb-wqhl0zxvjx.gz
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\v6fbf8u7hm-l6j59c68gs.gz
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\t7hgfmq9h6-f6guyl0605.gz

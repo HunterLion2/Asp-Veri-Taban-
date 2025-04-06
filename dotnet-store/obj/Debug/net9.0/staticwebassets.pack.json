@@ -1,16 +1,156 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\dotnet-store.bundle.scp.css",
-      "PackagePath": "staticwebassets\\dotnet-store.tih98aqvaf.bundle.scp.css"
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\e-commerce\\details.html",
+      "PackagePath": "staticwebassets\\e-commerce\\details.html"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\e-commerce\\index.html",
+      "PackagePath": "staticwebassets\\e-commerce\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\e-commerce\\shopping-cart.html",
+      "PackagePath": "staticwebassets\\e-commerce\\shopping-cart.html"
     },
     {
       "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\1-big.jpeg",
+      "PackagePath": "staticwebassets\\img\\1-big.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\1.jpeg",
+      "PackagePath": "staticwebassets\\img\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\2-big.jpeg",
+      "PackagePath": "staticwebassets\\img\\2-big.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\2.jpeg",
+      "PackagePath": "staticwebassets\\img\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\3-big.jpeg",
+      "PackagePath": "staticwebassets\\img\\3-big.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\3.jpeg",
+      "PackagePath": "staticwebassets\\img\\3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\4-big.jpeg",
+      "PackagePath": "staticwebassets\\img\\4-big.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\4.jpeg",
+      "PackagePath": "staticwebassets\\img\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\5-big.jpeg",
+      "PackagePath": "staticwebassets\\img\\5-big.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\5.jpeg",
+      "PackagePath": "staticwebassets\\img\\5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\6.jpeg",
+      "PackagePath": "staticwebassets\\img\\6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\7.jpeg",
+      "PackagePath": "staticwebassets\\img\\7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\8.jpeg",
+      "PackagePath": "staticwebassets\\img\\8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\about.jpeg",
+      "PackagePath": "staticwebassets\\img\\about.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\bg.jpeg",
+      "PackagePath": "staticwebassets\\img\\bg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\joomla.png",
+      "PackagePath": "staticwebassets\\img\\joomla.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\slider-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\slider-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\slider-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\slider-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\user-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\user-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\user-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\user-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\user-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\user-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\user-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\user-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\wix.png",
+      "PackagePath": "staticwebassets\\img\\wix.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\woocommerce.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\wordpress.png",
+      "PackagePath": "staticwebassets\\img\\wordpress.png"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\work-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\work-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\work-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\work-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\work-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\work-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\work-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\work-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\img\\work-5.jpeg",
+      "PackagePath": "staticwebassets\\img\\work-5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\js\\fslightbox.js",
+      "PackagePath": "staticwebassets\\js\\fslightbox.js"
     },
     {
       "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\js\\site.js",
