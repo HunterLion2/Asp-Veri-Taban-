@@ -20,6 +20,10 @@ public class UrunController:Controller {
     // Yukarıda yazıdğım Dependecy Indection özelliği aslında DbContext’in içerisindeki değerleri Controller’a çekmek içindir.
 
     public ActionResult Index() {
+        return View();
+    }
+
+    public ActionResult List() {
         var urunler = _context.Urunler.ToList();
         return View(urunler);
     }
