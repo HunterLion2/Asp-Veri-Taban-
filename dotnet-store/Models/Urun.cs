@@ -10,5 +10,6 @@ public class Urun {
     public bool Aktif { get; set; }
     public string Resim { get; set; }
     public bool Anasayfa {get; set;}
+    public bool Smilar { get; set; }
 }   
 

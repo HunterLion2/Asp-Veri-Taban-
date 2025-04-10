@@ -12,9 +12,9 @@ public class HomeController : Controller
         _context = context;
     }
 
-    public IActionResult Index()
+    public ActionResult Index()
     {
-        var urunler = _context.Urunler.ToList(); // Veritabanından ürünleri al
+        var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Anasayfa).ToList(); // Veritabanından ürünleri al
         return View(urunler); // Index.cshtml'e model olarak gönder
     }
 }
