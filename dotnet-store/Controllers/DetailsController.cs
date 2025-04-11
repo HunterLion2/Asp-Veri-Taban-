@@ -12,7 +12,10 @@ public class DetailsController:Controller {
     }
 
     public ActionResult Index(int id) {
-        var urundetails = _context.Urunler.FirstOrDefault(urun => urun.Id == id);
+        // Burada ki FirstOrDefault değeri ile Find değeri aynı işlevi görür.
+        
+        // var urundetails = _context.Urunler.FirstOrDefault(urun => urun.Id == id);
+        var urundetails = _context.Urunler.Find(id);
 
         var smilarimage = _context.Urunler.Where(urun => urun.Smilar == true).ToList();
 
