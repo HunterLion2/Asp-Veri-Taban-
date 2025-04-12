@@ -27,19 +27,24 @@ public class DataContext : DbContext {
         // Aslında buraya çağırılan bilgiler direkt olarak veritabanı açıldığında gelicek olan bilgilerdir.
         // Buraya yazılan bilgileri kaydetmek için "Mignations" oluşturulur yani aslında bu şekilde kalıcı bilgi oluşturulduktan sonra Migrations değeri çağırılır.
 
+        modelBuilder.Entity<Kategori>().HasData(
+            new Kategori() {Id = 1, KategoriAdi= "Telefon", url = "telefon"},
+            new Kategori() {Id = 2, KategoriAdi= "Elektronik", url = "elektronik"},
+            new Kategori() {Id = 3, KategoriAdi= "Beyaz Eşya", url = "beyaz-esya"},
+            new Kategori() {Id = 4, KategoriAdi= "Giyim", url = "giyim"},
+            new Kategori() {Id = 5, KategoriAdi= "Kozmetik", url = "kozmetik"}
+        );
+
         modelBuilder.Entity<Urun>().HasData(
-
-
-
             new List<Urun>() {
-                new Urun() { Id = 1, UrunAdi= "Apple Watch 7", Fiyat= 10000, Aktif= true, Resim = "1.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false},
-                new Urun() { Id = 2, UrunAdi= "Apple Watch 8", Fiyat= 20000, Aktif= false, Resim = "2.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false },
-                new Urun() { Id = 3, UrunAdi= "Apple Watch 9", Fiyat= 30000, Aktif= true, Resim = "3.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true},
-                new Urun() { Id = 4, UrunAdi= "Apple Watch 10", Fiyat= 40000, Aktif= true, Resim = "4.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false},
-                new Urun() { Id = 5, UrunAdi= "Apple Watch 11", Fiyat= 50000, Aktif= false, Resim = "5.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true},
-                new Urun() { Id = 6, UrunAdi= "Apple Watch 12", Fiyat= 60000, Aktif= true, Resim = "6.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true},
-                new Urun() { Id = 7, UrunAdi= "Apple Watch 13", Fiyat= 70000, Aktif= true, Resim = "7.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false},
-                new Urun() { Id = 8, UrunAdi= "Apple Watch 14", Fiyat= 80000, Aktif= true, Resim = "8.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false},
+                new Urun() { Id = 1, UrunAdi= "Apple Watch 7", Fiyat= 10000, Aktif= true, Resim = "1.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false, KategoriId = 1},
+                new Urun() { Id = 2, UrunAdi= "Apple Watch 8", Fiyat= 20000, Aktif= false, Resim = "2.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false, KategoriId = 2},
+                new Urun() { Id = 3, UrunAdi= "Apple Watch 9", Fiyat= 30000, Aktif= true, Resim = "3.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true, KategoriId = 2},
+                new Urun() { Id = 4, UrunAdi= "Apple Watch 10", Fiyat= 40000, Aktif= true, Resim = "4.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false, KategoriId = 1},
+                new Urun() { Id = 5, UrunAdi= "Apple Watch 11", Fiyat= 50000, Aktif= false, Resim = "5.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true, KategoriId = 3},
+                new Urun() { Id = 6, UrunAdi= "Apple Watch 12", Fiyat= 60000, Aktif= true, Resim = "6.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= true, KategoriId = 4},
+                new Urun() { Id = 7, UrunAdi= "Apple Watch 13", Fiyat= 70000, Aktif= true, Resim = "7.jpeg", Anasayfa= false, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false, KategoriId = 3},
+                new Urun() { Id = 8, UrunAdi= "Apple Watch 14", Fiyat= 80000, Aktif= true, Resim = "8.jpeg", Anasayfa= true, Aciklama="asdkasşdkasşdlkasşdkaşsdkaşskdşlasaşldkasdkaşsdkaşldkaşldkaşldkşaldkşlsdkşakdlşakdşlakdşalkdş", Smilar= false, KategoriId = 5},
             }
         );
     }
