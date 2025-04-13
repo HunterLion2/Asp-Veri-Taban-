@@ -10,8 +10,8 @@ using dotnet_store.Models;
 namespace dotnet_store.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250412144557_AddKategoriTablee")]
-    partial class AddKategoriTablee
+    [Migration("20250413134739_AddKategoriTables")]
+    partial class AddKategoriTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace dotnet_store.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Kategori");
+                    b.ToTable("Kategoriler");
 
                     b.HasData(
                         new
@@ -67,6 +67,36 @@ namespace dotnet_store.Migrations
                             Id = 5,
                             KategoriAdi = "Kozmetik",
                             url = "kozmetik"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            KategoriAdi = "Kategori 1",
+                            url = "kategori-1"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            KategoriAdi = "Kategori 2",
+                            url = "kategori-2"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            KategoriAdi = "Kategori 3",
+                            url = "kategori-3"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            KategoriAdi = "Kategori 4",
+                            url = "kategori-4"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            KategoriAdi = "Kategori 5",
+                            url = "kategori-5"
                         });
                 });
 

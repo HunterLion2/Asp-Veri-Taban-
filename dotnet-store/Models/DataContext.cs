@@ -3,15 +3,19 @@ using Microsoft.EntityFrameworkCore;
 namespace dotnet_store.Models;
 
 
-public class DataContext : DbContext {
+public class DataContext : DbContext
+{
     // tanımlanan her bir DbSet, veritabanındaki bir tabloya karşılık gelir.
     // DbSet üzerinden, veritabanındaki ilgili tabloya sorgular yapabilir, veri ekleyebilir, güncelleyebilir veya silebilirsiniz.
 
-    public DataContext(DbContextOptions<DataContext> options) : base(options) {
+    public DataContext(DbContextOptions<DataContext> options) : base(options)
+    {
 
     }
 
-    public DbSet<Urun> Urunler {get; set;}
+    public DbSet<Urun> Urunler { get; set; }
+
+    public DbSet<Kategori> Kategoriler { get; set; }
 
     // Veritabanında bir Urunler tablosunu temsil eder.
     // Urun adında bir model sınıfınız olduğunu varsayar. Bu model, Urunler tablosunun yapısını tanımlar.
@@ -28,11 +32,19 @@ public class DataContext : DbContext {
         // Buraya yazılan bilgileri kaydetmek için "Mignations" oluşturulur yani aslında bu şekilde kalıcı bilgi oluşturulduktan sonra Migrations değeri çağırılır.
 
         modelBuilder.Entity<Kategori>().HasData(
-            new Kategori() {Id = 1, KategoriAdi= "Telefon", url = "telefon"},
-            new Kategori() {Id = 2, KategoriAdi= "Elektronik", url = "elektronik"},
-            new Kategori() {Id = 3, KategoriAdi= "Beyaz Eşya", url = "beyaz-esya"},
-            new Kategori() {Id = 4, KategoriAdi= "Giyim", url = "giyim"},
-            new Kategori() {Id = 5, KategoriAdi= "Kozmetik", url = "kozmetik"}
+
+            new List<Kategori> {
+                new Kategori() {Id = 1, KategoriAdi= "Telefon", url = "telefon"},
+                new Kategori() {Id = 2, KategoriAdi= "Elektronik", url = "elektronik"},
+                new Kategori() {Id = 3, KategoriAdi= "Beyaz Eşya", url = "beyaz-esya"},
+                new Kategori() {Id = 4, KategoriAdi= "Giyim", url = "giyim"},
+                new Kategori() {Id = 5, KategoriAdi= "Kozmetik", url = "kozmetik"},
+                new Kategori() {Id = 6, KategoriAdi= "Kategori 1", url = "kategori-1"},
+                new Kategori() {Id = 7, KategoriAdi= "Kategori 2", url = "kategori-2"},
+                new Kategori() {Id = 8, KategoriAdi= "Kategori 3", url = "kategori-3"},
+                new Kategori() {Id = 9, KategoriAdi= "Kategori 4", url = "kategori-4"},
+                new Kategori() {Id = 10, KategoriAdi= "Kategori 5", url = "kategori-5"},
+            }
         );
 
         modelBuilder.Entity<Urun>().HasData(
@@ -55,7 +67,7 @@ public class DataContext : DbContext {
 
     // modelBuilder.Entity<Urun>() ifadesi, Urun modeline ait yapılandırmaları tanımlamak için kullanılır.
     // Bu, Urun modelinin veritabanındaki bir tabloya karşılık geldiğini belirtir.
-    
+
     // 4. HasData()
 
     // HasData() metodu, veritabanına başlangıç verileri (seed data) eklemek için kullanılır.

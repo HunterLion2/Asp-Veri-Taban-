@@ -10,7 +10,7 @@
             <div class="row p-1 p-lg-2 gx-2">
                 <div class="col-lg-3 d-none d-lg-block">
                     <!-- menu -->
-                    @await Html.PartialAsync("Partials/_Menu")
+                    @await Html.PartialAsync("Partials/_Menu", ViewData["Kategoriler"])
                 </div>
                 <div class="col-lg-9">
                     <!-- slider -->

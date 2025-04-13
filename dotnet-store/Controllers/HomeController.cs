@@ -15,6 +15,7 @@ public class HomeController : Controller
     public ActionResult Index()
     {
         var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Anasayfa).ToList(); // Veritabanından ürünleri al
+        ViewData["Kategoriler"] = _context.Kategoriler.ToList();
         return View(urunler); // Index.cshtml'e model olarak gönder
     }
 }
