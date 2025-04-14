@@ -1,6 +1,6 @@
 @model List<Kategori>
 
-<nav class="nav nav-pills flex-column flex-nowrap overflow-auto slider_nav">
+<nav class="nav flex-column flex-nowrap overflow-auto slider_nav">
     @foreach(var kategori in Model) {
         <a href="#" class="nav-link active">@kategori.KategoriAdi</a>
     }
