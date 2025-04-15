@@ -8,12 +8,12 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link ps-0">Anasayfa</a>
+                    <a href="/" class="nav-link ps-0">Anasayfa</a>
                 </li>
 
                 @foreach(var item in Model) {
                     <li class="nav-item">
-                        <a href="/urunler/@kategori.Url" class="nav-link ps-0">@item.KategoriAdi</a>
+                        <a href="/urunler/@item.url" class="nav-link ps-0">@item.KategoriAdi</a>
                     </li>
                 }
             </ul>

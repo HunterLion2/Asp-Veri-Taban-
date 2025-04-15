@@ -2,6 +2,6 @@
 
 <nav class="nav flex-column flex-nowrap overflow-auto slider_nav">
     @foreach(var kategori in Model) {
-        <a href="/urunler/@kategori.Url" class="nav-link active">@kategori.KategoriAdi</a>
+        <a href="/urunler/@kategori.url" class="nav-link active">@kategori.KategoriAdi</a>
     }
 </nav>
