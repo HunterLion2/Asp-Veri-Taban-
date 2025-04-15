@@ -13,7 +13,7 @@
     <header>
         @await Html.PartialAsync("Partials/_Topbar")
 
-        @await Html.PartialAsync("Partials/_Navbar")
+        @await Component.InvokeAsync("Navbar")
     </header>
 
     <main>
