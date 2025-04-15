@@ -23,8 +23,8 @@ public class UrunController:Controller {
         return View();
     }
 
-    public ActionResult List() {
-        var urunler = _context.Urunler.Where(urun => urun.Aktif == true).ToList();
+    public ActionResult List(string url) {
+        var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Kategori.url == url).ToList();
         return View(urunler);
     }
 

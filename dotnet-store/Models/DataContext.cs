@@ -13,6 +13,8 @@ public class DataContext : DbContext
 
     }
 
+    public DbSet<Slider> Sliders {get; set;}
+
     public DbSet<Urun> Urunler { get; set; }
 
     public DbSet<Kategori> Kategoriler { get; set; }
@@ -30,6 +32,14 @@ public class DataContext : DbContext
 
         // Aslında buraya çağırılan bilgiler direkt olarak veritabanı açıldığında gelicek olan bilgilerdir.
         // Buraya yazılan bilgileri kaydetmek için "Mignations" oluşturulur yani aslında bu şekilde kalıcı bilgi oluşturulduktan sonra Migrations değeri çağırılır.
+
+        modelBuilder.Entity<Slider>().HasData(
+            new List<Slider> {
+                new Slider() {Id = 1, Resim = "slider-1.jpeg"},
+                new Slider() {Id = 2, Resim = "slider-2.jpeg"},
+                new Slider() {Id = 3, Resim = "slider-3.jpeg"}
+            }
+        );
 
         modelBuilder.Entity<Kategori>().HasData(
 
