@@ -31,7 +31,7 @@ app.MapStaticAssets();
 app.MapControllerRoute(
     name: "urunler_by_kategori", // Bu alan route'a verilen isimdir.
     pattern: "urunler/{url}", // Burası route'un eşleşeceği URL desenini tanımlar.
-    defaults: new {controller = "Urun", action = "List"} // Burası route yapısının varsayılan olarak hangi controller ve action'a yönlendireceğini belirtir.
+    defaults: new {controller = "Urunler", action = "List"} // Burası route yapısının varsayılan olarak hangi controller ve action'a yönlendireceğini belirtir.
 ).WithStaticAssets();
 
 app.MapControllerRoute(

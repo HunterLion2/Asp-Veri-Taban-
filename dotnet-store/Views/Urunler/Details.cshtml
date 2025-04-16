@@ -68,8 +68,57 @@
     </div>
 </section>
 
-<section class="mt-3">
-        <div class="container">
-            @await Html.PartialAsync("_SmilarDetails")
+@{
+    
+    // ViewData["BenzerUrunler"]'in türü object olduğu için, bu değeri List<Urun> olarak kullanabilmek için açık bir tür dönüştürme (explicit cast) yapmanız gerekir.
+    // (List<Urun>) ifadesi, ViewData["BenzerUrunler"]'i List<Urun> türüne dönüştürür.
+
+    var urunler = (List<Urun>)ViewData["BenzerUrunler"]!;
+
+    if (urunler.Count > 0)
+    {
+        <section class="mt-3">
+            <div class="container">
+                <h4 class="mb-3">Benzer Ürünler</h4>
+                <div class="row gy-3">
+
+                    @foreach (var item in urunler)
+                    {
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="card shadow">
+                                <div class="img-wrap">
+                                    <span class="fa fa-regular fa-heart"></span>
+                                    <img src="~/img/@item.Resim" alt="@item.UrunAdi" class="card-img-top">
+                                </div>
+
+                                <div class="border-top info-wrap">
+                                    <a asp-controller="Urunler" asp-action="Details" asp-route-id="@item.Id"
+                                        class="title text-truncate">@item.UrunAdi</a>
+                                    <div class="price-wrap mb-3">
+                                        <span class="price-discount">@item.Fiyat ₺</span>
+                                        @* <del class="price">49.999 ₺</del> *@
+                                    </div>
+                                    <a href="#" class="btn btn-light w-100">
+                                        <i class="fa fa-shopping-basket me-1"></i> Sepete Ekle
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </section>
+    }
+
+    else {
+        
+        <div class="container mt-3">
+            <div class="alert alert-danger">
+                <h3>Benzer Ürün Bulunmamaktadır.</h3>
+            </div>
         </div>
-</section>
+
+    }
+
+}
