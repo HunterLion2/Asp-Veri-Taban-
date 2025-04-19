@@ -23,7 +23,7 @@ public class UrunlerController:Controller {
         return View();
     }
 
-    public ActionResult List(string url) {
+    public ActionResult List(string url, string q) {
         var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Kategori.url == url).ToList();
         return View(urunler);
     }
