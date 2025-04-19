@@ -24,8 +24,31 @@ public class UrunlerController:Controller {
     }
 
     public ActionResult List(string url, string q) {
-        var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Kategori.url == url).ToList();
-        return View(urunler);
+
+        // AsQueryable() ile oluşturulan sorgular, yalnızca sonuçlara erişildiğinde (örneğin, ToList() çağrıldığında) çalıştırılır.
+        // Bu, gereksiz veritabanı sorgularını önler ve performansı artırır.
+
+        var query = _context.Urunler.Where(i => i.Aktif);
+
+        if(!string.IsNullOrEmpty(url)) {
+            // Filtreleme
+            query = query.Where(i => i.Kategori.url == url);
+        }
+
+        if(!string.IsNullOrEmpty(q)) {
+            // Contains() değeri girilen q değerinin UrunAdi içerisinde harf harf aranmasını sağlar.
+
+            // Burada yaptığım şey aslında filtreleme yaparken aranan değer olan UrunAdlarını ve Benim inputa girdiğim değeri ToLower ile ikisinide küçük harf yaparım bu sayede büyük harf tutmamazlığı yaşamam.
+            query = query.Where(i => i.UrunAdi.ToLower().Contains(q.ToLower()));
+
+            ViewData["q"] = q;
+
+            // Filtreleme
+        }
+
+        // var urunler = _context.Urunler.Where(urun => urun.Aktif && urun.Kategori.url == url).ToList();
+
+        return View(query.Where(i => i.Aktif).ToList()); // Bu şekilde en son ToList değerine döndürürüz.
     }
 
     public ActionResult Details(int Id) {

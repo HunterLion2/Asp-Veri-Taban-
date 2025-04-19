@@ -4,7 +4,6 @@
             <div class="col-lg-2 col-sm-4 col-4">
                 <a href="/" class="navbar-brand"><i class="fa-solid fa-truck-fast"></i> E-Commerce</a>
             </div>
-
             <div class="col-lg-5 col-sm-8 col-8 order-lg-last">
                 <div class="text-end">
                     <a href="#" class="btn btn-light">
@@ -21,7 +20,8 @@
             <div class="col-lg-5">
                 <form asp-controller="Urun" asp-action="List" method="get">
                     <div class="input-group">
-                        <input type="text" name="q" placeholder="Anahtar kelime" class="form-control">
+                        <!-- Burada name değerine q dememizin sebebi değer get edildiği zaman header da q?= deniyor ve buyüzden input içerisine girilen değerin name değerini q yapmamı lazım ki girilen değer orada gözüksün -->
+                        <input type="text" name="q" placeholder="Anahtar kelime" class="form-control" value="@ViewData["q"]">
                         <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
                     </div>
                 </form>
