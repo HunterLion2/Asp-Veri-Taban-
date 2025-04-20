@@ -138,7 +138,6 @@ C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-s
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.RazorAssemblyInfo.cs
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.sourcelink.json
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\scopedcss\bundle\dotnet-store.styles.css
-C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\1g6igrmttz-81sy6wruuj.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\ybqhv9wpbv-szj28caql3.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\48lvmql9bb-rinddw3rs2.gz
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\v6fbf8u7hm-uqdik28yf5.gz
@@ -219,3 +218,5 @@ C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\refint\d
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.pdb
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\dotnet-store.genruntimeconfig.cache
 C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\ref\dotnet-store.dll
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\stxxyg6xyu-bq2k5997o8.gz
+C:\Users\cozgu\Documents\Asp-Veri-Tabanı\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-gsx66f6v5o.gz

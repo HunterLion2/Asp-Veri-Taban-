@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\e-commerce\\details.html",

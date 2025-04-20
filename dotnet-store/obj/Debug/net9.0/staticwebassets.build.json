@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qv30HMB9/kOnrXZmkuW2jdDiQWgM5oVUbSPyZsEjQGw=",
+  "Hash": "BLXWBd8DurMnmvI4GKBcMrCljZSsqtl8TTiJyYSKU+M=",
   "Source": "dotnet-store",
   "BasePath": "_content/dotnet-store",
   "Mode": "Default",
@@ -36,27 +36,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1g6igrmttz-81sy6wruuj.gz",
-      "SourceId": "dotnet-store",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/dotnet-store",
-      "RelativePath": "css/styles#[.{fingerprint=81sy6wruuj}]?.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "1kkfmfi06a",
-      "Integrity": "L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1iv1ywjztz-2z0ns9nrw6.gz",
@@ -731,6 +710,27 @@
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-gsx66f6v5o.gz",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "css/site#[.{fingerprint=gsx66f6v5o}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "956fwhih3v",
+      "Integrity": "3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css"
+    },
+    {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\hriwo8fg9p-b7pk76d08c.gz",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -1172,6 +1172,27 @@
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\stxxyg6xyu-bq2k5997o8.gz",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "css/admin#[.{fingerprint=bq2k5997o8}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bu1h0yr755",
+      "Integrity": "baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css"
+    },
+    {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\t7hgfmq9h6-f6guyl0605.gz",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -1403,12 +1424,12 @@
       "OriginalItemSpec": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\",
       "BasePath": "_content/dotnet-store",
-      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "RelativePath": "css/admin#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1417,11 +1438,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "81sy6wruuj",
-      "Integrity": "lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA=",
+      "Fingerprint": "bq2k5997o8",
+      "Integrity": "04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
+    {
+      "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gsx66f6v5o",
+      "Integrity": "kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\e-commerce\\details.html",
@@ -3484,8 +3526,306 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/styles.81sy6wruuj.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1g6igrmttz-81sy6wruuj.gz",
+      "Route": "css/admin.bq2k5997o8.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\stxxyg6xyu-bq2k5997o8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bq2k5997o8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.bq2k5997o8.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bq2k5997o8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.bq2k5997o8.css.gz",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\stxxyg6xyu-bq2k5997o8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bq2k5997o8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\stxxyg6xyu-bq2k5997o8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005714285714"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04OhKU24F5YaNJvWH4xlz6iympUujwGOkYF/MbixRAY="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css.gz",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\stxxyg6xyu-bq2k5997o8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 13:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-baTm2CcCKEOVBLjBivXnbWbSyToor3MJptOwa3mLfOU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-gsx66f6v5o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3504,15 +3844,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4=\""
+          "Value": "\"3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3528,27 +3868,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA=\""
+          "Value": "W/\"kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "81sy6wruuj"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA="
+          "Value": "sha256-kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag="
         }
       ]
     },
     {
-      "Route": "css/styles.81sy6wruuj.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3565,35 +3897,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA=\""
+          "Value": "\"kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "81sy6wruuj"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA="
+          "Value": "sha256-kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag="
         }
       ]
     },
     {
-      "Route": "css/styles.81sy6wruuj.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1g6igrmttz-81sy6wruuj.gz",
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-gsx66f6v5o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3610,15 +3934,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4=\""
+          "Value": "\"3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3631,22 +3955,14 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "81sy6wruuj"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css.gz"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4="
+          "Value": "sha256-3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc="
         }
       ]
     },
     {
-      "Route": "css/styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1g6igrmttz-81sy6wruuj.gz",
+      "Route": "css/site.gsx66f6v5o.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-gsx66f6v5o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3665,15 +3981,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4=\""
+          "Value": "\"3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3689,19 +4005,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA=\""
+          "Value": "W/\"kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "gsx66f6v5o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA="
+          "Value": "sha256-kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag="
         }
       ]
     },
     {
-      "Route": "css/styles.css",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\styles.css",
+      "Route": "css/site.gsx66f6v5o.css",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3718,27 +4042,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA=\""
+          "Value": "\"kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "gsx66f6v5o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-lMecyNnUxIypp8pU+0oKTjKc19kGFCBoRelsbKBO7DA="
+          "Value": "sha256-kHL3i1QgXQRHgpPMzzwKhH3Xi5HUwj6OugzzZ1jWfag="
         }
       ]
     },
     {
-      "Route": "css/styles.css.gz",
-      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\1g6igrmttz-81sy6wruuj.gz",
+      "Route": "css/site.gsx66f6v5o.css.gz",
+      "AssetFile": "C:\\Users\\cozgu\\Documents\\Asp-Veri-Tabanı\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-gsx66f6v5o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3755,15 +4087,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4=\""
+          "Value": "\"3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 14:49:29 GMT"
+          "Value": "Sun, 20 Apr 2025 13:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3776,8 +4108,16 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "gsx66f6v5o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-L1jEOsKcM0XUpzTj/nVLZtE7X1gvQT+w/HU1i3lnvl4="
+          "Value": "sha256-3TDUnAQE5pgOxxZFioMK27U5yh8asyN3hyZkxZM4bjc="
         }
       ]
     },

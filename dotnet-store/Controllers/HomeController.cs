@@ -7,6 +7,7 @@ namespace dotnet_store.Controllers;
 public class HomeController : Controller
 {
     private readonly DataContext _context;
+    
     public HomeController(DataContext context)
     {
         _context = context;
