@@ -1,5 +1,7 @@
 namespace dotnet_store.Models;
 
+// Entity
+
 public class Kategori {
 
     public int Id { get; set; }
