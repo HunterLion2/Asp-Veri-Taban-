@@ -107,8 +107,6 @@
     text-align: center;
 }
 
-
-
 .gallery-wrap .thumbs-wrap a {
     width: 60px;
     height: 60px;
@@ -129,3 +127,4 @@
 .checked {
     color: orange;
 }
+
