@@ -11,7 +11,9 @@ public class Urun {
     public string Resim { get; set; }
     public bool Anasayfa {get; set;}
     public bool Smilar { get; set; }
-    public int KategoriId { get; set; }
+
+    public int KategoriId { get; set; } // Burada diğer tablo ile bağlanan veri budur.
+
     // Aslında benim burada yapmış olduğum şey Urun tablsonda oluşturduğumuz Kategori kolonunu , Kategori tablosuna bağlamış oluruz burada
     // alınan veri KategoriId'dir sonuna Id geldiği zaman aynı s takısında olduğu gibi bir anlam taşır.
     public Kategori Kategori { get; set; } = null!;

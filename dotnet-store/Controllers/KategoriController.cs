@@ -22,6 +22,7 @@ public class KategoriController : Controller {
             Id = i.Id,
             KategoriAdi = i.KategoriAdi,
             url = i.url,
+            // Count değeri Kategoriler tablosunun eşleştiği tablonun , bir biri ile eşleştirdiğimiz değerini alır. Burada bu değer KategoriId değeridir.
             UrunSayisi = i.Uruns.Count
         }).ToList();
         return View(adminkategori);
