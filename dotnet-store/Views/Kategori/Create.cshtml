@@ -12,21 +12,22 @@
                 </a>
             </div>
             <div class="card-body">
-                <form>
+                <form method="post">
                     <div class="row mb-3">
                         <label for="kategoriAdi" class="col-sm-2 col-form-label">Kategori Adı</label>
                         <div class="col-sm-10">
-                            <input type="text" id="kategoriAdi" class="form-control">
+                            <!-- Server tarafı ile name bilgisi alakalıdır.Bu yüzden buraya girilen değerleri post etmek istediğimiz de bizim için buradaki name bilgileri önemlidir.-->
+                            <input name="kategoriAdi" type="text" id="kategoriAdi" class="form-control">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="kategoriUrl" class="col-sm-2 col-form-label">Url</label>
                         <div class="col-sm-10">
-                            <input type="text" id="kategoriUrl" class="form-control">
+                            <input type="text" name="kategoriUrl" id="kategoriUrl" class="form-control">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-sm-10 offset-sm-2">
+                        <div class="col-sm-10 offset-sm-2"> 
                             <button type="submit" class="btn btn-primary">Kaydet</button>
                         </div>
                     </div>
