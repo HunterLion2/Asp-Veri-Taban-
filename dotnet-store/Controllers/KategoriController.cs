@@ -49,6 +49,4 @@ public class KategoriController : Controller {
         return RedirectToAction("Index"); // Bu sayede SaveChanges olduktan sonra sayfa yönlendirmesi yaparız.
         // return View(); Bu değeri yazmam çünkü submit olduğunda hala daha aynı sayfanın dönmesini istemem bu yüzden RedirectToAction("Index") diyerek Index sayfasına yönlendiririm.
     }
-
-
 }
